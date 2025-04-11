@@ -1,0 +1,3 @@
+client ID: 8d7356ee5a2b4dec9136c2814163cfee
+client secret: 2af8fe9474a74071b6368277eeb97c14
+redirect url: http://127.0.0.1:8080/callback
