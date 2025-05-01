@@ -1,1 +1,6 @@
 .env
+.cache
+.cID.txt
+__pycache__/
+.test_songs.ipynb
+*.__pycache__
