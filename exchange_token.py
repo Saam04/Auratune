@@ -9,9 +9,7 @@ CLIENT_ID = os.getenv("SPOTIPY_CLIENT_ID")
 CLIENT_SECRET = os.getenv("SPOTIPY_CLIENT_SECRET")
 REDIRECT_URI = "http://127.0.0.1:8080/callback"  # Same as used in authentication
 
-# 🔹 Paste the AUTH_CODE from the redirect URL here
-AUTH_CODE = "AQD3ChWs5lLGxPAlB_KtYd5wNeHZwG5MpuLGxp_oq7-5QxeSTUZFGjxS2WkKsg_mKtN8U9vMMLqpS2WPgntRUjgsbl0l9T6J0-ItRcnB1RSMZ0b06XPJsKtgW_a0oduji1uj93iM_L3xpqDLLmkzPgRSxhOLMKwLwblFOqCPwruKvb7ZSNZ0lbk_wnDtp1ZTJdJ1L4Q"
-
+AUTH_CODE = os.getenv("AUTH_CODE")
 # Spotify Token URL
 TOKEN_URL = "https://accounts.spotify.com/api/token"
 

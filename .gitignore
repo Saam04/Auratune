@@ -1,6 +1,25 @@
-.env
-.cache
-.cID.txt
 __pycache__/
-.test_songs.ipynb
-*.__pycache__
+*.py[cod]
+*$py.class
+*.py
+
+venv/
+env/
+
+
+*.ipynb
+
+.env
+
+
+.cache/
+.cID.txt
+
+# Logs
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
